@@ -5,19 +5,23 @@ import pandas_ta as ta
 from alpha_vantage.timeseries import TimeSeries
 API_key = '2G54W62Y65RLE31I'
 ts = TimeSeries(key=API_key, output_format='pandas')
-data = ts.get_intraday('IONQ', interval='5min', month='2024-06', outputsize='full')  # savedasionqdatatuple.txt
+data = ts.get_intraday('AFRM', interval='5min', month='2024-06', outputsize='full')  # savedasionqdatatuple.txt
 print(data)
 print(type(data))
 
 # store stock data without meta data info
 data1 = data[0]
+
+# sort data from oldest to newest
+
+
 print(type(data1))  # check data type/class
 
 # save dataframe as csv so that dont have to keep retrieving from server
-data1.to_csv('test.csv')  # save dataframe to csv, dont put index=False, will remove date
+data1.to_csv('202406_AFRM.csv')  # save dataframe to csv, dont put index=False, will remove date
 
 # read same data from csv file instead of reading from server
-data2 = pd.read_csv('test.csv')
+data2 = pd.read_csv('202406_AFRM.csv')
 
 # check data type is the same before and after retrieving from csv file
 print(type(data1))
