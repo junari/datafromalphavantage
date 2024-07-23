@@ -11,9 +11,10 @@ print(type(data))
 
 # store stock data without meta data info
 data1 = data[0]
+data1.columns #columns info
 
 # sort data from oldest to newest
-
+data1=data1.sort_values(by='date')
 
 print(type(data1))  # check data type/class
 
