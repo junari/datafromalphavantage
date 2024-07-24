@@ -103,8 +103,44 @@
       <option name="project" value="LOCAL" />
       <updated>1721795260947</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
+      <option name="closed" value="true" />
+      <created>1721795935930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721795935930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe" />
