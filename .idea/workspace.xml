@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6e956c-40e5-4ddc-a226-3306266cbc08" name="Changes" comment="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2024_11_15__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2024_11_15__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_5min_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_5min_data.py" afterDir="false" />
-    </list>
+    <list default="true" id="0e6e956c-40e5-4ddc-a226-3306266cbc08" name="Changes" comment="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721796639854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
+      <option name="closed" value="true" />
+      <created>1721797226072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721797226072</updated>
+    </task>
+    <task id="LOCAL-00009" summary="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
+      <option name="closed" value="true" />
+      <created>1721797235962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721797235962</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
