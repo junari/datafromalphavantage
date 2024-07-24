@@ -1,6 +1,7 @@
 import pandas as pd
 import pandas_ta as ta
-
+import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
 # STEP 1: RETRIEVE DATA AND STORE AS CSV
 # get data from alpha vantage server
@@ -41,10 +42,14 @@ macd_df = ta.macd(close=data2['4. close'])
 
 # combine main dataframe with macd dataframe
 data3 = pd.concat([data2, macd_df], axis=1)
-
+data3.columns  # columns info
 
 # STEP 3: VISUALIZE DATA
 # plot candles against rsi, macd
+data4 = data3[0:25]  # show partial results line 1 to line 26
+plt.plot(data4.date,data4.date)
+plt.show()
+# bastard cannot work
 
 
 # STEP 4: ANALYZE DATA
