@@ -3,7 +3,7 @@ import pandas_ta as ta
 
 # get data from alpha vantage server
 from alpha_vantage.timeseries import TimeSeries
-API_key = '2G54W62Y65RLE31I'
+API_key = ''  # put in your key
 ts = TimeSeries(key=API_key, output_format='pandas')
 data = ts.get_intraday('AFRM', interval='5min', month='2024-06', outputsize='full')  # savedasionqdatatuple.txt
 print(data)
