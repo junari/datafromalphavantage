@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6e956c-40e5-4ddc-a226-3306266cbc08" name="Changes" comment="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe" />
+    <list default="true" id="0e6e956c-40e5-4ddc-a226-3306266cbc08" name="Changes" comment="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2024_11_15__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2024_11_15__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_5min_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_5min_data.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +28,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -57,7 +62,7 @@
     "Python.getdataRIOT.executor": "Run",
     "Python.getdataandreconfiguredata.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "data-visualization",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Junari/PycharmProjects/datafromalphavantage",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -111,7 +116,31 @@
       <option name="project" value="LOCAL" />
       <updated>1721795935930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
+      <option name="closed" value="true" />
+      <created>1721796526460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721796526461</updated>
+    </task>
+    <task id="LOCAL-00006" summary="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
+      <option name="closed" value="true" />
+      <created>1721796574609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721796574609</updated>
+    </task>
+    <task id="LOCAL-00007" summary="retrieval of data&#10;storage od data as CSV for ease without multiple retrievals from alphavantage servers&#10;prompt to input API key&#10;prompt to input stock symbol&#10;addition of calculated RSI and MACD columns to dataframe">
+      <option name="closed" value="true" />
+      <created>1721796639854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721796639854</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +151,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="FILTERS">
@@ -130,7 +159,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="data-visualization" />
                       </list>
                     </value>
                   </entry>
