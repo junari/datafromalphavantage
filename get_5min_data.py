@@ -50,7 +50,7 @@ data3.columns  # columns info
 data4 = data3[0:25]  # show partial results line 1 to line 26
 plt.plot(data4.date,data4.date)
 plt.show()
-# bastard cannot work
+# bastard cannot work, may need to change column names to close, open, etc
 
 # STEP 4: ANALYZE DATA
 # analyze data again
