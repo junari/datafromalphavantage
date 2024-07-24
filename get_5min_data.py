@@ -42,8 +42,11 @@ macd_df = ta.macd(close=data2['4. close'])
 # combine main dataframe with macd dataframe
 data3 = pd.concat([data2, macd_df], axis=1)
 
-# STEP 3: ANALYZE DATA
 
-# STEP 4: test test again
+# STEP 3: VIZUALIZE DATA
+# plot candles against rsi, macd
 
+
+# STEP 4: ANALYZE DATA
+# analyze data again
 
