@@ -11,7 +11,7 @@ API_key = input("Key in your API key: ")
 ts = TimeSeries(key=API_key, output_format='pandas')
 counter_name = input("what is stock counter symbol (e.g. AAPL, TSLA, IBM): ")
 # input counter symbol
-data = ts.get_intraday(symbol=counter_name, interval='5min', month='2024-06', outputsize='full')  # savedasionqdatatuple.txt
+data = ts.get_intraday(symbol=counter_name, interval='5min', month='2024-06', outputsize='full')
 print(data)
 print(type(data))
 
